@@ -16,7 +16,7 @@ namespace ToolbarTest
 
         private void Menu1Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("Menu Clicked", "", "Okay");
+            DisplayAlert("Menu Clicked For Testing", "", "Okay");
         }
     }
 }
