@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ToolbarTest"
+             x:Class="ToolbarTest.MainPage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Name=" Menu1" Text="Item1" Order="Primary" Priority="0" Clicked="Menu1Clicked" />
+        <ToolbarItem Name=" Menu2" Text="Item2" Order="Primary" Priority="1"/>
+        <ToolbarItem Name=" Menu1Child" Text="Item1Child" Order="Secondary" Priority="0"/>
+        <ToolbarItem Name=" Menu2Child" Text="Item2Child" Order="Secondary" Priority="1"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Welcome to FoxToolbarTest!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
